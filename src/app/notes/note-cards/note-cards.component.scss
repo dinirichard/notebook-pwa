@@ -1,0 +1,24 @@
+.input-label-lg {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+
+.input-label {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.card-title {
+  padding-right: 10px;
+  position: relative;
+  &input {
+    float: left;
+  }
+  &a {
+    float: right;
+  }
+}

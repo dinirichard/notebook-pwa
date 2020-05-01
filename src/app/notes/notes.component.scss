@@ -1,0 +1,11 @@
+a.list-group-item {
+  padding: 0.75rem 0.1rem;
+  &:hover {
+    input.input-label {
+      background-color: #f8f9fa;
+    }
+  }
+}
+input.input-label {
+  border-width: 0px;
+}
